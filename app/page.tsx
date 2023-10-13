@@ -8,6 +8,11 @@ import { FAQ } from "./components/Faq";
 import { Social } from "./components/Social";
 import { Roulette } from "./components/Roulete";
 import { Testimonials } from "./components/testimonials";
+import dynamic from "next/dynamic";
+
+const RouletteComponent = dynamic(() => import("./components/Roulete") as any, {
+  ssr: false,
+});
 
 export default function Home() {
   return (
@@ -23,7 +28,8 @@ export default function Home() {
       <FAQ />
       <Social />
       <Testimonials />
-      <Roulette />
+      {/* <Roulette /> */}
+      {/* <RouletteComponent /> */}
     </div>
   );
 }

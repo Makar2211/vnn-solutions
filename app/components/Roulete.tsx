@@ -1,5 +1,5 @@
 "use client";
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Wheel } from "react-custom-roulette";
 import { ModalPrize } from "./ModalPrize";
 import { CustomButton } from "./CustomButton";
@@ -15,6 +15,11 @@ export const Roulette: React.FC = () => {
   const [mustSpin, setMustSpin] = useState(false);
   const [prizeNumber, setPrizeNumber] = useState(0);
   const [isModalOpen, setIsModalOpen] = useState(false);
+
+  useEffect(() => {
+    if (typeof window !== "undefined") {
+    }
+  }, []);
 
   const handleSpinClick = () => {
     if (!mustSpin) {
