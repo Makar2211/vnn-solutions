@@ -22,7 +22,7 @@ export const LeadMagnet: React.FC = () => {
   const onSubmit = (data: FormData) => {
     console.log(data);
     setIsSubmitted(true);
-    reset(); // Скидаємо дані форми після відправки
+    reset();
   };
 
   return (

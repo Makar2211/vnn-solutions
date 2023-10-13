@@ -2,14 +2,18 @@
   "name": "test-task-vnv",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://makar2211.github.io/vnv-solution/",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "deploy": "gh-pages -d build",
+    "predeploy": "npm run build"
   },
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.7",
+    "gh-pages": "^6.0.0",
     "next": "13.5.4",
     "normalize.css": "^8.0.1",
     "react": "^18",

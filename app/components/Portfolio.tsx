@@ -30,11 +30,9 @@ export const PortfolioItem = () => {
 
   const onSubmit: SubmitHandler<FormData> = (data) => {
     if (data.file) {
-      // Отримати дані з форми і відправити їх, оскільки файл вибраний.
       setDescription("");
       setFile(null);
     } else {
-      // Показати помилку, оскільки файл не вибраний.
     }
   };
 
