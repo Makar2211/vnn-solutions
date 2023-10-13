@@ -1,7 +1,6 @@
 "use client";
-import React, { useState } from "react";
+import React from "react";
 import { CustomButton } from "./CustomButton";
-import Link from "next/link";
 import { Controller, useForm } from "react-hook-form";
 
 interface FormData {

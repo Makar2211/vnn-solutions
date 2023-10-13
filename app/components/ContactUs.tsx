@@ -2,7 +2,6 @@
 import React, { useState } from "react";
 import { useForm, SubmitHandler } from "react-hook-form";
 import { CustomButton } from "./CustomButton";
-import Image from "next/image";
 
 interface FormData {
   name: string;

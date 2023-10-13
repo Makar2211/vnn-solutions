@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import { HeaderNav } from "../constants";
 import Link from "next/link";

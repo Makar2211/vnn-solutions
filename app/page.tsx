@@ -22,7 +22,6 @@ export default function Home() {
       <PortfolioItem />
       <FAQ />
       <Social />
-
       <Testimonials />
       <Roulette />
     </div>

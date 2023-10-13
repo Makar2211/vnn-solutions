@@ -9,32 +9,32 @@ export const HeaderNav = [
 
 export const perevagu = [
   {
-    img: "/perevaga1.svg",
+    img: "./perevaga1.svg",
     title:
       "Мої сайти – це не просто гарна картинка, а повноцінний канал продажів, який постійно приводить нових клієнтів",
   },
   {
-    img: "/perevaga2.svg",
+    img: "./perevaga2.svg",
     title:
       "Я не використовую конструктори (Redymag, Webflow, etc.), тому що створюю тільки якісні сайти",
   },
   {
-    img: "/perevaga3.svg",
+    img: "./perevaga3.svg",
     title:
       "Разом із сайтом ви отримуєте готовий фундамент для просування в інтернеті завдяки SEO та аналітиці",
   },
   {
-    img: "/perevaga4.svg",
+    img: "./perevaga4.svg",
     title:
       "Ви замовляєте цілісний продукт, адже я беру на себе всі етапи роботи – від аналізу вашого бізнесу до запуску готового сайту",
   },
   {
-    img: "/perevaga5.svg",
+    img: "./perevaga5.svg",
     title:
       "Співпраця зі мною – це не лише стандартна розробка, а й обговорення десятків нових ідей для розвитку вашого бізнесу",
   },
   {
-    img: "/perevaga6.svg",
+    img: "./perevaga6.svg",
     title:
       "Для мене не буває колишніх клієнтів, тому, одного разу замовивши у мене сайт, ви назавжди отримуєте мою підтримку",
   },
@@ -52,15 +52,15 @@ export const poslugi = [
         proprety: "Обирайте цей тип сайту, якщо:",
         listOfPropositions: [
           {
-            imageURL: "/lp1.svg",
+            imageURL: "./lp1.svg",
             text: "Ви хочете презентувати власний інфо-продукт, послугу, книгу і т.д.",
           },
           {
-            imageURL: "/lp2.svg",
+            imageURL: "./lp2.svg",
             text: "У вас невелика кількість продуктів (до 8)",
           },
           {
-            imageURL: "/lp3.svg",
+            imageURL: "./lp3.svg",
             text: "Вам потрібне коротке портфоліо спеціаліста або сайт-візитка",
           },
         ],
@@ -77,15 +77,15 @@ export const poslugi = [
         proprety: "Обирайте цей тип сайту, якщо:",
         listOfPropositions: [
           {
-            imageURL: "/many1.svg",
+            imageURL: "./many1.svg",
             text: "Вам потрібно більше однієї сторінки на сайті",
           },
           {
-            imageURL: "/many2.svg",
+            imageURL: "./many2.svg",
             text: "Ви плануєте зробити блог та/або особистий кабінет",
           },
           {
-            imageURL: "/many3.svg",
+            imageURL: "./many3.svg",
             text: "На сайті передбачається будь-який інший додатковий функціонал",
           },
         ],
@@ -102,19 +102,19 @@ export const poslugi = [
         proprety: "Обирайте цей тип сайту, якщо:",
         listOfPropositions: [
           {
-            imageURL: "/internetshop1.svg",
+            imageURL: "./internetshop1.svg",
             text: "Швидко знайти потрібний товар",
           },
           {
-            imageURL: "/internetshop2.svg",
+            imageURL: "./internetshop2.svg",
             text: "Зробити замовлення у будь-який час",
           },
           {
-            imageURL: "/internetshop3.svg",
+            imageURL: "./internetshop3.svg",
             text: "У вас більше 8 товарів",
           },
           {
-            imageURL: "/internetshop4.svg",
+            imageURL: "./internetshop4.svg",
             text: "Вам потрібен каталог, корзина, особистий кабінет або інші сторінки такого типу",
           },
         ],
@@ -131,19 +131,19 @@ export const poslugi = [
         proprety: "Аудит допоможе вам:",
         listOfPropositions: [
           {
-            imageURL: "/audit1.svg",
+            imageURL: "./audit1.svg",
             text: "Побачити зроблені помилки",
           },
           {
-            imageURL: "/audit2.svg",
+            imageURL: "./audit2.svg",
             text: "Знайти правильний підхід до своїх клієнтів",
           },
           {
-            imageURL: "/audit3.svg",
+            imageURL: "./audit3.svg",
             text: "В рази збільшити показник конверсії",
           },
           {
-            imageURL: "/audit4.svg",
+            imageURL: "./audit4.svg",
             text: "Отримати десятки нових ідей для сайту та багато чого іншого.",
           },
         ],
@@ -160,11 +160,11 @@ export const poslugi = [
         proprety: "",
         listOfPropositions: [
           {
-            imageURL: "/consultation1.svg",
+            imageURL: "./consultation1.svg",
             text: "Консультація триває 1.5 години в онлайн форматі",
           },
           {
-            imageURL: "/consultation2.svg",
+            imageURL: "./consultation2.svg",
             text: "Ви можете вказати додаткові запитання щодо вашого бізнесу та, за попереднім узгодженням, я включу їх в нашу консультацію",
           },
         ],
